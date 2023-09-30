@@ -223,6 +223,7 @@ h3 {
   grid-gap: 1.875em;
   list-style: none;
   text-decoration: none;
+  margin-bottom: 1.875em;
 }
 
 .gallery-content {
@@ -258,7 +259,7 @@ h3 {
   display: block;
   cursor: pointer;
   letter-spacing: 0.05rem;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 @media (min-width: 35em) {
