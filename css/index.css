@@ -265,6 +265,7 @@ h3 {
 @media (min-width: 35em) {
   .gallery {
     grid-gap: 2em;
+    margin-bottom: 2em;
   }
 
   .gallery-content a > figure {
