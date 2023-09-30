@@ -68,6 +68,7 @@ h3 {
 .site-image {
   height: 6rem;
   margin: 1em;
+  cursor: pointer;
 }
 
 .site-navigation {
