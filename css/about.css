@@ -208,9 +208,8 @@ h2 {
 /* ----- Gallery ----- */
 
 .section-gallery {
-  padding: 5em 3.5em 1.875em;
+  padding: 5em 2em 1.875em 2em;
 }
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18.75em, 3fr));
