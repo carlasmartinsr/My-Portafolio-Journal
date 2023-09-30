@@ -26,7 +26,7 @@ today = today.getFullYear();
 
 document.querySelector(".year").innerHTML = today;
 
-if (galleryMore !== "") {
+if (galleryMore !== null) {
   galleryMore.addEventListener("click", () => {
     const moreProjects = document.querySelector(".more");
     if (
