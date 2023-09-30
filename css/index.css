@@ -247,8 +247,7 @@ h3 {
 }
 
 .more {
-  display: block;
-  margin-top: 2em;
+  display: none;
 }
 
 .gallery-more {
@@ -259,6 +258,7 @@ h3 {
   display: block;
   cursor: pointer;
   letter-spacing: 0.05rem;
+  margin-top: 2em;
 }
 
 @media (min-width: 35em) {
