@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/post.css" />
+
+    <title>Article</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header flex">
+      <div class="site-identity flex">
+        <a href="#"
+          ><img
+            src="images/logo-5.png"
+            alt="A woman with a computer"
+            class="site-image"
+        /></a>
+        <h3>My Portfolio Journal</h3>
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="site-navigation"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars" name="menu"></i>
+        <i class="fa-solid fa-close" name="close"></i>
+        <span class="fa-sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="site-navigation"
+          data-visible="false"
+          class="site-navigation flex"
+        >
+          <li><a href="#" class="active">Home </a></li>
+          <li><a href="about.html">About me </a></li>
+          <li><a href="contact.html">Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-article">
+      <div class="article-content flex">
+        <h1>My Portfolio Journal</h1>
+        <p class="article-text">
+          After nearly 10 years in the tourism industry, my professional journey
+          has been a path filled with unexpected twists and significant changes.
+          My experience as a Systems Engineer in Venezuela barely extended to
+          six months before life pushed me in a new direction. That direction
+          led me to Spain, where I discovered my true passion in the tourism
+          industry. Interacting directly with tourists, selling shows, and
+          managing operations for groups kept me active and in constant contact
+          with people, something I deeply valued. However, the pandemic
+          drastically transformed my trajectory. I found myself unemployed and
+          confined, which pushed me to explore new horizons. I delved into the
+          world of programming and design, taking online courses on various
+          platforms. It was at Scrimba where I found clarity and a defined
+          purpose.
+        </p>
+        <img
+          src="../images/img-main.jpg"
+          class="article-img"
+          alt="Image showing a computer screen with programming code displayed on it"
+        />
+
+        <p class="article-text">
+          After nearly 10 years in the tourism industry, my professional journey
+          has been a path filled with unexpected twists and significant changes.
+          My experience as a Systems Engineer in Venezuela barely extended to
+          six months before life pushed me in a new direction. That direction
+          led me to Spain, where I discovered my true passion in the tourism
+          industry. Interacting directly with tourists, selling shows, and
+          managing operations for groups kept me active and in constant contact
+          with people, something I deeply valued.
+        </p>
+        <p class="article-text">
+          However, the pandemic drastically transformed my trajectory. I found
+          myself unemployed and confined, which pushed me to explore new
+          horizons. I delved into the world of programming and design, taking
+          online courses on various platforms. It was at Scrimba where I found
+          clarity and a defined purpose.
+        </p>
+        <p class="article-text">
+          Despite having started working in an office, I continue to question
+          myself: do I want to remain confined, either in an office or at home,
+          working in technology or another field, or do I prefer to be in direct
+          contact with people, enjoying most of my time outdoors instead of
+          being within four walls? In the tourism industry, I found a simpler
+          way to balance my personal life with work, something I deeply miss.
+        </p>
+        <p class="article-text">
+          Despite the challenges, I find satisfaction in learning and
+          self-discovery. As I explored the realms of programming and design, I
+          also discovered more about myself. I developed new passions, such as
+          drawing, rediscovered pleasures as simple as running in a park or as
+          magical as being with cats. My journey is ongoing, and although the
+          return to the tourism industry is uncertain, I will continue learning
+          and exploring. The pandemic has taught me the importance of adapting
+          and growing, reminding me of how unpredictable life can be in the
+          blink of an eye.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-gallery">
+      <h2>Some Projects</h2>
+      <ul class="gallery">
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://hometown-istanbul.netlify.app" target="_blank">
+              <img src="../images/img-1.jpg" class="gallery-image" />
+              <figure>
+                Basic HTML and CSS web page about the city where I live:
+                Istanbul.
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://soccer-scoreboard-app.netlify.app" target="_blank">
+              <img src="../images/img-2.jpg" class="gallery-image" />
+              <figure>
+                Basic scoreboard in HTML, CSS and JS where goals can be manually
+                scored
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://birthdaygiftsite.netlify.app/" target="_blank">
+              <img src="../images/img-3.jpg" class="gallery-image" />
+              <figure>
+                Animated birthday gift card in HTML and CSS for my sister
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>My Learning Journal</p>
+      <p class="footer-date">&copy; Copyright <span class="year">0000</span></p>
+    </footer>
+  </body>
+</html>

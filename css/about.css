@@ -1,0 +1,298 @@
+/* General */
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+/* Typography */
+
+h1 {
+  margin: 0 0 1em 0;
+  color: #da4167;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h2 {
+  color: #da4167;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+@media (min-width: 35em) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ----- Header ----- */
+
+.site-header {
+  background-color: #bcf4f5;
+  color: #da4167;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-identity {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-image {
+  height: 6rem;
+  margin: 1em;
+}
+
+.site-navigation {
+  align-items: center;
+  min-height: 4.375em;
+  list-style: none;
+  transform: uppercase;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  color: #da4167;
+  font-weight: 600;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 35em) {
+  .site-image {
+    margin: 0.5em 0 0.5em 0.5em;
+    height: 4rem;
+  }
+
+  .site-navigation {
+    position: fixed;
+    z-index: 1000;
+    flex-direction: column;
+    padding: min(20vh, 10em) 2em;
+    inset: 0 0 0 0;
+    background-color: #d8fbf5;
+    transform: translateX(100%);
+    transition: transform 35ms ease-out;
+  }
+
+  .site-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .mobile-nav-toggle > i[name="close"] {
+    display: none;
+  }
+  .mobile-nav-toggle > i[name="menu"] {
+    display: block;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    background-color: #d8fbf5;
+    border-color: #da4167;
+    color: #da4167;
+    padding: 0.5em;
+    aspect-ratio: 1;
+    z-index: 9999;
+    top: 1.5em;
+    right: 2em;
+  }
+}
+
+@media (min-width: 35em) {
+  .site-navigation {
+    --gap: 2em;
+    padding: 2em;
+  }
+}
+
+/* ----- Article ----- */
+.section-article {
+  margin: 5em 0;
+}
+
+.article-content {
+  padding: 0 4em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-segment {
+  flex-direction: column;
+  padding: 0;
+}
+
+.article-img {
+  width: 95%;
+  display: block;
+  border-radius: 0.5em;
+}
+
+.article-text {
+  color: #211e1e;
+  line-height: 1.6;
+  font-size: 1rem;
+  padding: 0.5em 0;
+}
+
+@media (min-width: 35em) {
+  .section-article {
+    margin: 5em;
+  }
+
+  .article-segment {
+    padding: 0 15em;
+    flex-direction: row;
+    margin-bottom: 2em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article-img {
+    width: 17%;
+  }
+
+  .article-text {
+    font-size: 1.3rem;
+    padding: 0.5em 5em;
+  }
+
+  .article-summary {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* ----- Gallery ----- */
+
+.section-gallery {
+  padding: 5em 3.5em 1.875em;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.875em;
+  list-style: none;
+  text-decoration: none;
+}
+
+.gallery-content {
+  /* height: 18rem; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-content a > img {
+  width: 100%;
+  height: 87%;
+  object-fit: cover;
+}
+
+.gallery-content a > figure {
+  color: #325692;
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.more {
+  display: none;
+  padding-bottom: 1.875em;
+}
+
+.gallery-more {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #da4167;
+  display: block;
+  cursor: pointer;
+  margin-top: 4em;
+  letter-spacing: 0.05rem;
+}
+
+@media (min-width: 35em) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+  }
+
+  .gallery-content a > figure {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .gallery-content a > img {
+    height: 82%;
+  }
+
+  .gallery-more {
+    margin-top: 3em;
+  }
+}
+
+/* ----- Footer ----- */
+footer {
+  display: flex;
+  gap: 0.65em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+  background-color: #da4167;
+  color: #d8fbf5;
+  padding: 1.5em;
+  height: 6.563em;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.03rem;
+}
+
+.footer-date {
+  font-weight: 400;
+}

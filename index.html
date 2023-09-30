@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <title>My Portfolio Journal</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header flex">
+      <div class="site-identity flex">
+        <a href="#"
+          ><img
+            src="images/logo-5.png"
+            alt="A woman with a computer"
+            class="site-image"
+        /></a>
+        <h3>My Portfolio Journal</h3>
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="site-navigation"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars" name="menu"></i>
+        <i class="fa-solid fa-close" name="close"></i>
+        <span class="fa-sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="site-navigation"
+          data-visible="false"
+          class="site-navigation flex"
+        >
+          <li><a href="#" class="active">Home </a></li>
+          <li><a href="about.html">About me </a></li>
+          <li><a href="contact.html">Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-hero">
+      <div class="hero-content flex">
+        <h1>My Portfolio Journal</h1>
+        <p class="hero-preview">
+          After nearly 10 years in the tourism industry, my professional journey
+          has been a path filled with unexpected twists and significant changes.
+          However, the pandemic drastically transformed my trajectory. I delved
+          into the world of programming and design...
+        </p>
+        <a href="post.html">
+          <button class="btn-read-more">Read More</button>
+        </a>
+      </div>
+    </section>
+    <section class="section-gallery">
+      <ul class="gallery">
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://hometown-istanbul.netlify.app" target="_blank">
+              <img src="../images/img-1.jpg" class="gallery-image" />
+              <figure>
+                Basic HTML and CSS web page about the city where I live:
+                Istanbul.
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://soccer-scoreboard-app.netlify.app" target="_blank">
+              <img src="../images/img-2.jpg" class="gallery-image" />
+              <figure>
+                Basic scoreboard in HTML, CSS and JS where goals can be manually
+                scored
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://birthdaygiftsite.netlify.app/" target="_blank">
+              <img src="../images/img-3.jpg" class="gallery-image" />
+              <figure>
+                Animated birthday gift card in HTML and CSS for my sister
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://carla-emojis.netlify.app" target="_blank">
+              <img src="../images/img-4.jpg" class="gallery-image" />
+              <figure>
+                Basic Web application in HTML, CSS and JS where questions are
+                answered using emoticons.
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+        <li>
+          <figcaption class="gallery-content">
+            <a
+              href="https://customized-password-generator.netlify.app/"
+              target="_blank"
+            >
+              <img src="../images/img-5.jpg" class="gallery-image" />
+              <figure>
+                Basic Randomly generated passwords in HTML CSS and JS.
+              </figure>
+            </a>
+          </figcaption>
+        </li>
+        <li>
+          <figcaption class="gallery-content">
+            <a href="https://cat-mood.netlify.app/" target="_blank">
+              <img src="../images/img-6.jpg" class="gallery-image" />
+              <figure>Basic Cat Humor Therapy in HTML CSS and JS</figure></a
+            >
+          </figcaption>
+        </li>
+      </ul>
+
+      <div class="more">
+        <ul class="gallery">
+          <li>
+            <figcaption class="gallery-content">
+              <a href="https://project-order.netlify.app" target="_blank">
+                <img src="../images/img-7.jpg" class="gallery-image" />
+                <figure>
+                  Basic der Tea Website Project HTML CSS and JS
+                </figure></a
+              >
+            </figcaption>
+          </li>
+          <li>
+            <figcaption class="gallery-content">
+              <a href="https://we-super-rock.netlify.app/" target="_blank">
+                <img src="../images/img-8.jpg" class="gallery-image" />
+                <figure>
+                  Basic Project for writing comments with HTML, CSS, JavaScript,
+                  and Firebase
+                </figure></a
+              >
+            </figcaption>
+          </li>
+          <li>
+            <figcaption class="gallery-content">
+              <a href="https://project-order.netlify.app" target="_blank">
+                <img src="../images/img-9.jpg" class="gallery-image" />
+                <figure>Basic Responsive Form in HTML and CSS</figure></a
+              >
+            </figcaption>
+          </li>
+        </ul>
+      </div>
+      <a class="gallery-more">View more projects</a>
+    </section>
+
+    <footer>
+      <p>My Learning Journal</p>
+      <p class="footer-date">&copy; Copyright <span class="year">0000</span></p>
+    </footer>
+  </body>
+</html>
