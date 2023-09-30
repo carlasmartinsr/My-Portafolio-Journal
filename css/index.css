@@ -266,11 +266,6 @@ h3 {
     padding: 5em 3.5em 1.875em 3.5em;
   }
 
-  .gallery {
-    grid-gap: 2em;
-    margin-bottom: 2em;
-  }
-
   .gallery-content a > figcaption {
     font-size: 1.2rem;
   }
