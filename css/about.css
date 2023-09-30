@@ -177,11 +177,11 @@ h2 {
 
 @media (min-width: 35em) {
   .section-article {
-    margin: 5em;
+    margin: 5em 4em;
   }
 
   .article-segment {
-    padding: 0 15em;
+    padding: 0 8.5em;
     flex-direction: row;
     margin-bottom: 2em;
     align-items: center;
@@ -189,12 +189,12 @@ h2 {
   }
 
   .article-img {
-    width: 17%;
+    width: 45%;
   }
 
   .article-text {
-    font-size: 1.3rem;
-    padding: 0.5em 5em;
+    font-size: 1.2rem;
+    padding: 0.5em 3em;
   }
 
   .article-summary {
