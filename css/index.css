@@ -247,7 +247,7 @@ h3 {
 }
 
 .more {
-  display: none;
+  display: block;
   margin-top: 2em;
 }
 
