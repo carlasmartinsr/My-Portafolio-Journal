@@ -157,6 +157,7 @@ h2 {
 
 .article-img {
   width: 100%;
+  display: block;
 }
 
 .article-text {
