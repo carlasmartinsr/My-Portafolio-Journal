@@ -23,12 +23,12 @@ navToggle.addEventListener("click", () => {
 
 let today = new Date();
 today = today.getFullYear();
+
 document.querySelector(".year").innerHTML = today;
 
-const moreProjects = document.querySelector(".more");
-
-if (galleryMore && moreProjects) {
+if (galleryMore !== "") {
   galleryMore.addEventListener("click", () => {
+    const moreProjects = document.querySelector(".more");
     if (
       moreProjects.style.display === "none" ||
       moreProjects.style.display === ""
