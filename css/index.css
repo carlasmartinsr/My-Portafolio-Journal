@@ -220,10 +220,10 @@ h3 {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18.75em, 3fr));
-  grid-gap: 1.875em;
+  grid-gap: 2em;
   list-style: none;
   text-decoration: none;
-  margin-bottom: 1.875em;
+  margin-bottom: 2em;
 }
 
 .gallery-content {
@@ -266,6 +266,7 @@ h3 {
   .section-gallery {
     padding: 5em 3.5em 1.875em 3.5em;
   }
+
   .gallery {
     grid-gap: 2em;
     margin-bottom: 2em;
