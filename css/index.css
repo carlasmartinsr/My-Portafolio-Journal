@@ -214,7 +214,7 @@ h3 {
 /* ----- Gallery ----- */
 
 .section-gallery {
-  padding: 5em 3.5em 1.875em 3.5em;
+  padding: 5em 2em 1.875em 2em;
 }
 
 .gallery {
@@ -262,6 +262,9 @@ h3 {
 }
 
 @media (min-width: 35em) {
+  .section-gallery {
+    padding: 5em 3.5em 1.875em 3.5em;
+  }
   .gallery {
     grid-gap: 2em;
     margin-bottom: 2em;
