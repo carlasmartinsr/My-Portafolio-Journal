@@ -3,6 +3,7 @@ const navToggle = document.querySelector(".mobile-nav-toggle");
 const menuIcon = navToggle.querySelector("i[name='menu']");
 const menuClose = navToggle.querySelector("i[name='close']");
 const galleryMore = document.querySelector(".gallery-more");
+let dateHTML = document.querySelector(".year");
 
 navToggle.addEventListener("click", () => {
   const visibility = siteNavigation.getAttribute("data-visible");
@@ -37,4 +38,5 @@ galleryMore.addEventListener("click", () => {
 
 let today = new Date();
 today = today.getFullYear();
+console.log(dateHTML.innerHTML);
 document.querySelector(".year").innerHTML = today;
