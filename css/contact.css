@@ -146,13 +146,11 @@ h2 {
 /* ----- contact ----- */
 .section-contact {
   margin: 5em auto;
+  display: block;
 }
 
 .contact-content {
   padding: 0 1em;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .contact-img {
