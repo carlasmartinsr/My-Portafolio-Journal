@@ -145,7 +145,7 @@ h2 {
 
 /* ----- contact ----- */
 .section-contact {
-  margin: 5em 0;
+  margin: 5em auto;
 }
 
 .contact-content {
@@ -167,6 +167,8 @@ h2 {
   font-size: 1.1rem;
   border-radius: 0.225em;
   margin: 1em 0;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .contact-email {
