@@ -245,6 +245,7 @@ h3 {
   font-weight: 700;
   line-height: 1.5;
 }
+
 .more {
   display: none;
   padding-bottom: 1.875em;
@@ -257,14 +258,13 @@ h3 {
   color: #da4167;
   display: block;
   cursor: pointer;
-  margin-top: 3em;
   letter-spacing: 0.05rem;
 }
 
 @media (min-width: 35em) {
   .gallery {
     grid-gap: 2em;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
   }
 
   .gallery-content a > figcaption {
