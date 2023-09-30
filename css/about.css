@@ -159,6 +159,8 @@ h2 {
 
 .article-segment {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -181,7 +183,7 @@ h2 {
   }
 
   .article-segment {
-    padding: 0 8.5em;
+    padding: 0 6.5em;
     flex-direction: row;
     margin-bottom: 2em;
     align-items: center;
@@ -194,7 +196,7 @@ h2 {
 
   .article-text {
     font-size: 1.3rem;
-    padding: 0.5em 3em;
+    padding: 0.5em 2em;
   }
 
   .article-summary {
