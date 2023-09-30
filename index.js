@@ -25,22 +25,19 @@ let today = new Date();
 today = today.getFullYear();
 document.querySelector(".year").innerHTML = today;
 
-document.addEventListener("DOMContentLoaded", () => {
-  const galleryMore = document.getElementById("galleryMore");
-  const moreProjects = document.querySelector(".more");
+const moreProjects = document.querySelector(".more");
 
-  if (galleryMore && moreProjects) {
-    galleryMore.addEventListener("click", () => {
-      if (
-        moreProjects.style.display === "none" ||
-        moreProjects.style.display === ""
-      ) {
-        galleryMore.style.display = "none";
-        moreProjects.style.display = "flex";
-      } else {
-        galleryMore.style.display = "block";
-        moreProjects.style.display = "none";
-      }
-    });
-  }
-});
+if (galleryMore && moreProjects) {
+  galleryMore.addEventListener("click", () => {
+    if (
+      moreProjects.style.display === "none" ||
+      moreProjects.style.display === ""
+    ) {
+      galleryMore.style.display = "none";
+      moreProjects.style.display = "flex";
+    } else {
+      galleryMore.style.display = "block";
+      moreProjects.style.display = "none";
+    }
+  });
+}
