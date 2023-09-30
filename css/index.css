@@ -248,7 +248,7 @@ h3 {
 
 .more {
   display: none;
-  padding-bottom: 1.875em;
+  padding: 1.875em 0;
 }
 
 .gallery-more {
