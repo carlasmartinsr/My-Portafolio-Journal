@@ -231,7 +231,7 @@ h2 {
   object-fit: cover;
 }
 
-.gallery-content a > figure {
+.gallery-content a > figcaption {
   color: #325692;
   text-align: center;
   margin: 0;
@@ -263,7 +263,7 @@ h2 {
     grid-gap: 2em;
   }
 
-  .gallery-content a > figure {
+  .gallery-content a > figcaption {
     font-size: 1.2rem;
     font-weight: 600;
   }
