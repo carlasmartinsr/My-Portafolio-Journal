@@ -21,22 +21,26 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-galleryMore.addEventListener("click", () => {
-  console.log("paso");
-  const moreProjects = document.querySelector(".more");
-  if (
-    moreProjects.style.display === "none" ||
-    moreProjects.style.display === ""
-  ) {
-    galleryMore.style.display = "none";
-    moreProjects.style.display = "flex";
-  } else {
-    galleryMore.style.display = "block";
-    moreProjects.style.display = "none";
-  }
-});
-
 let today = new Date();
 today = today.getFullYear();
-console.log(dateHTML.innerHTML);
 document.querySelector(".year").innerHTML = today;
+
+document.addEventListener("DOMContentLoaded", () => {
+  const galleryMore = document.getElementById("galleryMore");
+  const moreProjects = document.querySelector(".more");
+
+  if (galleryMore && moreProjects) {
+    galleryMore.addEventListener("click", () => {
+      if (
+        moreProjects.style.display === "none" ||
+        moreProjects.style.display === ""
+      ) {
+        galleryMore.style.display = "none";
+        moreProjects.style.display = "flex";
+      } else {
+        galleryMore.style.display = "block";
+        moreProjects.style.display = "none";
+      }
+    });
+  }
+});
