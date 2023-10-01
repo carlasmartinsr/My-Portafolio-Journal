@@ -165,7 +165,7 @@ h2 {
   color: #211e1e;
   line-height: 1.5;
   font-size: 1rem;
-  padding: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 @media (min-width: 35em) {
@@ -175,7 +175,7 @@ h2 {
 
   .article-text {
     font-size: 1.2rem;
-    padding: 0.5em 3em;
+    margin: 0.5em 3em;
   }
 }
 
