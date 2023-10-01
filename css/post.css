@@ -145,7 +145,7 @@ h2 {
 
 /* ----- Article ----- */
 .section-article {
-  margin: 5em 0;
+  margin-top: 5em;
 }
 
 .article-content {
@@ -172,7 +172,7 @@ h2 {
 
 @media (min-width: 35em) {
   .section-article {
-    margin: 5em;
+    margin: 5em 5em 0 5em;
   }
 
   .article-text {
