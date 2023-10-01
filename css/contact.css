@@ -149,6 +149,10 @@ h2 {
   padding: 5em 0;
 }
 
+.contact-container {
+  margin: 0 auto;
+}
+
 .contact-content {
   text-align: center;
   font-style: italic;
