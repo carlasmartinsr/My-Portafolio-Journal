@@ -149,13 +149,13 @@ h2 {
   padding: 5em 0;
 }
 
-.contact-container {
+.contact-content {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.contact-content {
+.contact-content figure {
   text-align: center;
   font-style: italic;
   text-indent: 0;
