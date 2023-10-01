@@ -160,7 +160,7 @@ h2 {
   font-style: italic;
   text-indent: 0;
   border: thin #3c4f76 solid;
-  width: 80%;
+  width: 90%;
   margin: 0;
   padding: 0.8em;
   border-radius: 0.2em;
@@ -168,11 +168,11 @@ h2 {
 
 .contact-content figcaption {
   background-color: #3c4f76;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   line-height: 1.5;
   color: #fff4a3;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .contact-content img {
