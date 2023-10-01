@@ -172,17 +172,17 @@ h2 {
 }
 
 figure {
-  width: 30%;
   text-align: center;
   font-style: italic;
   text-indent: 0;
-  border: thin silver solid;
+  border: thin #3c4f76 solid;
   margin: 0.5em;
   padding: 0.5em;
 }
 img.scaled {
   width: 80%;
 }
+
 .contact-email {
   color: #534e4e;
   font-size: 0.9rem;
