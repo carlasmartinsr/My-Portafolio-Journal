@@ -158,15 +158,12 @@ h2 {
 .article-img {
   width: 100%;
   display: block;
-  min-height: 15rem;
-  min-width: 15rem;
-  max-width: 100%;
   margin: 0.5em 0;
 }
 
 .article-text {
   color: #211e1e;
-  line-height: 1.6;
+  line-height: 1.5;
   font-size: 1rem;
   padding: 0.5em 0;
 }
