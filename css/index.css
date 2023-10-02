@@ -224,7 +224,6 @@ h3 {
   list-style: none;
   text-decoration: none;
   /* margin-bottom: 2.5em; */
-  grid-gap: 1em;
   padding: 2em 1em;
   justify-content: center;
 }
@@ -234,7 +233,6 @@ h3 {
   height: 100%;
   position: relative; */
   display: grid;
-  grid-template-rows: 15em 1fr;
   grid-gap: 1em;
 }
 
