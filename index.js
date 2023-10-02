@@ -23,7 +23,6 @@ navToggle.addEventListener("click", () => {
 
 let today = new Date();
 today = today.getFullYear();
-
 document.querySelector(".year").innerHTML = today;
 
 if (galleryMore !== null) {
