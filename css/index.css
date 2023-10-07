@@ -39,7 +39,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 35em) {
@@ -91,7 +91,7 @@ h3 {
 @media (max-width: 35em) {
   .site-image {
     margin: 0.5em 0 0.5em 0.5em;
-    height: 4rem;
+    height: 3.8rem;
   }
 
   .site-navigation {
