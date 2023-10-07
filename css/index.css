@@ -226,6 +226,8 @@ h3 {
 }
 
 .gallery-item {
+  width: 100%;
+  height: 100%;
 }
 
 .gallery-item img {
