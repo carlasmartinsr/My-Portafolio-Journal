@@ -346,6 +346,9 @@ h3 {
 }
 
 @media (min-width: 48em) {
+  .project-container {
+    justify-content: space-between;
+  }
   .project-card {
     flex: 0 1 calc(30% - 1.25em);
   }
