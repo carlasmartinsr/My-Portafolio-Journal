@@ -233,13 +233,6 @@ h2 {
   padding: 5em 2em 1.875em 2em;
 }
 
-.project-container a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
 .project-container {
   margin: 0 auto;
   max-width: 78.125em;
@@ -251,10 +244,13 @@ h2 {
 }
 
 .project-card a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 1em;
   flex: 0 1 calc(100% - 1.25em);
   display: grid;
   grid-template-rows: 17em 3em;
-  padding: 1em;
   text-align: center;
 }
 
@@ -287,15 +283,16 @@ h2 {
   grid-row: 2/3;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 30em) {
   .project-card {
-    flex: 0 1 calc(30% - 1.25em);
+    flex: 0 1 calc(50% - 1.25em);
   }
+
   .project-card p {
+    padding: 0.5em 0;
     font-size: 1rem;
   }
 }
-
 /* ----- Footer ----- */
 footer {
   display: flex;
