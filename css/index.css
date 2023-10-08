@@ -338,9 +338,7 @@ h3 {
   .project-card {
     flex: 0 1 calc(50% - 1.25em);
   }
-  .project-card img {
-    height: 90%;
-  }
+
   .project-card p {
     padding: 0.5em 0;
   }
