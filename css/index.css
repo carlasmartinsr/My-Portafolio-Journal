@@ -298,7 +298,9 @@ h3 {
 }
 
 .project-card {
-  flex: 1 1 calc(100% - 1.25em);
+  flex: 0 1 calc(100% - 1.25em);
+  max-width: calc(33.3333% - 1.25em);
+  height: 300px;
   display: grid;
   grid-template-rows: 1fr auto auto;
   border: 0.063em solid #bcf4f5;
