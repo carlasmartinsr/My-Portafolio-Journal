@@ -329,11 +329,11 @@ h3 {
   font-weight: 700;
 }
 
-/* @media (min-width: 37em) {
-  .project-card {
-    flex: 0 1 calc(48% - 1.25em);
+@media (min-width: 37em) {
+  .project-card p {
+    font-size: 0.9rem;
   }
-} */
+}
 
 @media (min-width: 48em) {
   .project-card {
