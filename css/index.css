@@ -331,7 +331,7 @@ h3 {
 
 @media (min-width: 36em) {
   .project-card {
-    flex: 0 1 calc(40% - 1.25em);
+    flex: 0 1 calc(70% - 1.25em);
   }
 }
 
