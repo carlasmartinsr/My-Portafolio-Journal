@@ -330,8 +330,8 @@ h3 {
 }
 
 @media (min-width: 36em) {
-  .project-card p {
-    font-size: 0.8rem;
+  .project-card {
+    flex: 0 1 calc(44% - 1.25em);
   }
 }
 
