@@ -292,12 +292,13 @@ h3 {
 
 .project-card a {
   text-decoration: none;
+  display: block;
+  margin: 0;
   flex: 0 1 calc(100% - 1.25em);
   display: grid;
   grid-template-rows: 17em 3em;
   padding: 1em;
   text-align: center;
-  display: block;
 }
 
 .project-card {
