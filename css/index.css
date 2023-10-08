@@ -298,9 +298,10 @@ h3 {
 }
 
 .project-card {
-  flex: 0 1 100%;
+  flex: 0 1 calc(100% - 1.25em);
   display: grid;
   grid-template-rows: 1fr auto auto;
+  grid-template-columns: 3fr;
   border: 0.063em solid #bcf4f5;
   padding: 1em;
   text-align: center;
