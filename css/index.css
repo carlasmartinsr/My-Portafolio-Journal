@@ -280,13 +280,6 @@ h3 {
   padding: 5em 2em 1.875em 2em;
 }
 
-.project-container a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
 .project-container {
   margin: 0 auto;
   max-width: 78.125em;
@@ -298,11 +291,13 @@ h3 {
 }
 
 .project-card a {
+  text-decoration: none;
   flex: 0 1 calc(100% - 1.25em);
   display: grid;
   grid-template-rows: 17em 3em;
   padding: 1em;
   text-align: center;
+  display: block;
 }
 
 .project-card {
@@ -336,7 +331,7 @@ h3 {
 
 @media (min-width: 30em) {
   .project-card {
-    flex: 0 1 calc(50% - 2.25em);
+    flex: 0 1 calc(50% - 1.25em);
   }
 
   .project-card p {
