@@ -2,7 +2,7 @@ const siteNavigation = document.querySelector(".site-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 const menuIcon = navToggle.querySelector("i[name='menu']");
 const menuClose = navToggle.querySelector("i[name='close']");
-const galleryMore = document.querySelector(".gallery-more");
+const projectsLink = document.querySelector(".projects-link");
 let dateHTML = document.querySelector(".year");
 
 navToggle.addEventListener("click", () => {
@@ -25,18 +25,18 @@ let today = new Date();
 today = today.getFullYear();
 document.querySelector(".year").innerHTML = today;
 
-if (galleryMore !== null) {
-  galleryMore.addEventListener("click", () => {
-    const moreProjects = document.querySelector(".more");
+if (projectsLink !== null) {
+  projectsLink.addEventListener("click", () => {
+    const projectsMore = document.querySelector(".projects-more ");
     if (
-      moreProjects.style.display === "none" ||
-      moreProjects.style.display === ""
+      projectsMore.style.display === "none" ||
+      projectsMore.style.display === ""
     ) {
-      galleryMore.style.display = "none";
-      moreProjects.style.display = "flex";
+      projectsLink.style.display = "none";
+      projectsMore.style.display = "flex";
     } else {
-      galleryMore.style.display = "block";
-      moreProjects.style.display = "none";
+      projectsLink.style.display = "block";
+      projectsMore.style.display = "none";
     }
   });
 }
